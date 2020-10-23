@@ -156,15 +156,11 @@ public class MainActivity extends AppCompatActivity {
                             t.show();
                         }
                         if(attempts == 0){
-                            restart();
-                            restart();
+                           // restart();
                         }
                     }
 
                 }
-            }
-
-        }
 
     }
 
