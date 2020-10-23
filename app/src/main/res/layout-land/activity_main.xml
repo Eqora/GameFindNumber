@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edit_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/show_attempts_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_attempts_left" />
+
+    <TextView
+        android:id="@+id/show_label_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_label_hint2" />
+
+    <Button
+        android:id="@+id/btn_label_guess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="guess"
+        android:text="@string/btn_label_guess"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <Button
+        android:id="@+id/btn_label_restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="restart"
+        android:text="@string/btn_label_restart" />
+
+    <TextView
+        android:id="@+id/show_label_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_label_msg"
+        android:textSize="24sp" />
+
+</android.widget.LinearLayout>

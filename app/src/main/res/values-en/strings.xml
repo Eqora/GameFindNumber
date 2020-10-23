@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Game Find Number</string>
+    <string name="show_label_hint2">Задумано 2-значное число.</string>
+    <string name="show_label_hint3">Задумано 3-значное число.</string>
+    <string name="show_label_hint4">Задумано 4-значное число.</string>
+    <string name="show_attempts_left">5</string>
+    <string name="show_label_msg">Guess!</string>
+    <string name="btn_label_guess">Try guess</string>
+    <string name="btn_label_restart">Try again</string>
+    <string name="msgbox_guessed">Guessed!</string>
+    <string name="msgbox_congrats">Congratulations!</string>
+    <string name="ok">okay</string>
+    <string name="msgbox_More">More!</string>
+    <string name="msgbox_Less">Less!</string>
+    <string name="settings">Settings</string>
+    <string-array name="diaps_array">
+    <item>@string/_2</item>
+    <item>@string/_3</item>
+    <item>@string/_4</item>
+</string-array>
+
+    <string name="_2">2_значные</string>
+    <string name="_3">3_значные</string>
+    <string name="_4">4_значные</string>
+    <string name="nums_diap">diapazon</string>
+    <string name="cancel">cancel</string>
+
+</resources>
